@@ -16,6 +16,7 @@ body {
 }
 
 #instructions {
+  color: white;
   margin-top: 30px;
   font-family: 'Poiret One', cursive;
   font-size: 1.25em;
