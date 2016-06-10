@@ -29,7 +29,7 @@ $(document).ready(function() {
 
 
 
-// Here is where I was trying to separate out the "append list" and move it to User interface (but failed)
+// Here is where I was trying to separate out the "append list" instruction and move it to User interface (but failed).
 // var pingPong = function(){
 // var userInput = parseInt($("#input").val());
 //   for (var i= 1; i <= userInput; i++) {
