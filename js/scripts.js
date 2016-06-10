@@ -12,10 +12,10 @@ var userInput = parseInt($("#input").val());
     if (i % 15 === 0) {
       $("#list").append("<li>pingpong</li>")
     }
-    if (i % 5 === 0) {
+    else if (i % 5 === 0) {
       $("#list").append("<li>pong</li>")
     }
-    if (i % 3 === 0) {
+    else if (i % 3 === 0) {
       $("#list").append("<li>ping</li>")
     }
     else {
