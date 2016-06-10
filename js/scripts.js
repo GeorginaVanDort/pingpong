@@ -1,12 +1,5 @@
-$(document).ready(function() {
-  $("#inputform").submit(function(event) {
-    event.preventDefault();
-    $("#list").empty();
-    pingPong();
 
-  });
-});
-
+// Business Logic//
 var pingPong = function(userInput){
 var userInput = parseInt($("#input").val());
 
@@ -25,3 +18,12 @@ var userInput = parseInt($("#input").val());
     }
   }
 }
+///user Interface//
+
+$(document).ready(function() {
+  $("#inputform").submit(function(event) {
+    event.preventDefault();
+    $("#list").empty();
+    pingPong();
+  });
+});
