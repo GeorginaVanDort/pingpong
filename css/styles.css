@@ -1,14 +1,37 @@
-
-
 .jumbotron {
   background-color: rgba(238, 238, 238, 0);
   background-image: none;
+  margin: none;
+}
+.container {
+  font-weight: lighter;
+  font-family: 'Codystar', cursive;
 }
 
-.images {
+body {
+  font-family: 'Codystar', cursive;
+  background-color: black;
+  color: white;
+  font-weight: lighter;
+}
+
+.blink {
+  color: yellow;
+    animation-duration: 1s;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(2, start);
+}
+@keyframes blink {
+    80% {
+        visibility: hidden;
+    }
+}
+
+#input {
   border-width: thin;
   border-color: black;
-  max-width: 50%;
+  max-width: 25%;
   border-radius: 20px;
 }
 
@@ -18,7 +41,11 @@
 }
 
 .btn {
-  margin-top: 20px;
+  margin: 10px;
+  background-color: black;
+  color: white;
+  border-color: white;
+  border-width: thin;
 }
 
 footer {
