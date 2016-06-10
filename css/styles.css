@@ -1,0 +1,26 @@
+
+
+.jumbotron {
+  background-color: rgba(238, 238, 238, 0);
+  background-image: none;
+}
+
+.images {
+  border-width: thin;
+  border-color: black;
+  max-width: 50%;
+  border-radius: 20px;
+}
+
+.result {
+  display: none;
+  align-self: center;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+footer {
+margin-left: 20px;
+}
