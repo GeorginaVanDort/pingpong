@@ -1,14 +1,14 @@
 var pingPong = function(userInput){
   var numArray = [];
     for (var i= 1; i <= userInput; i++) {
-      if (i % 15 === 0) {
-            numArray.push("<p class='blink'>P I N G P 0 N G!</p>")
+      if (i % 15 === 0) {"P I N G  P 0 N G !"
+            numArray.push()
       }
       else if (i % 5 === 0) {
-            numArray.push("<p class='blink'>P 0 N G!</p>")
+            numArray.push("P 0 N G!")
       }
       else if (i % 3 === 0) {
-            numArray.push("<p class='blink'>P I N G!</p>")
+            numArray.push("P I N G!")
       }
       else {
         numArray.push(i)
@@ -26,7 +26,15 @@ $(document).ready(function() {
       var numArray = pingPong(userInput);
 
       numArray.forEach(function(entry){
-        $("#list").append("<li>" + entry + "</li>");
+        if (isNaN(entry) === true) {
+          $("#list").append("<li class='blink'>" + entry + "</li>");
+        }
+        else {
+          $("#list").append("<li>" + entry + "</li>");
+        }
       });
     });
   });
+
+
+// "<p class='blink'>P I N G P 0 N G!</p>"
