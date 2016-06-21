@@ -1,8 +1,8 @@
 var pingPong = function(userInput){
   var numArray = [];
     for (var i= 1; i <= userInput; i++) {
-      if (i % 15 === 0) {"P I N G  P 0 N G !"
-            numArray.push()
+      if (i % 15 === 0) {
+            numArray.push("P I N G  P 0 N G !");
       }
       else if (i % 5 === 0) {
             numArray.push("P 0 N G!")
